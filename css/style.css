@@ -1,0 +1,397 @@
+body {
+  background: #dddcd8;
+}
+.bgraun {
+background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3) ),
+ url(../img/Summer_Beach_Laptops_Hat_450630.jpg)no-repeat center top;
+ height: 100vh;
+ background-size: cover;
+}
+.first {
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    padding-top: 30%;
+    color: #fff;
+  }
+.first h1 {
+  text-align: center;
+    font-size: 50px;
+}
+.first p {
+  font-size: 25px;
+}
+.scroll-down {
+position: absolute;
+    left: 50%;
+    bottom: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: -15px;
+    display: block;
+    z-index: 10;
+    text-align: center;
+}
+.fa {
+    color: #fff;
+    display: inline-block;
+    padding-top: 15px;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+.name h1 {
+   margin-left: 50px;
+   font-family: 'Lobster', cursive;
+  color: grey;
+}
+ .name {
+  position: fixed;
+  
+}
+
+.icon {
+  display: none;
+  width: 45px;
+  height: 35px;
+  position: relative;
+  cursor: pointer;
+}
+.icon span {
+    display: block;
+    position: absolute;
+    height: 9px;
+    width: 100%;
+    background: #333333;
+    border-radius: 9px;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+.icon span:nth-child(1){
+  top: 0px;
+}
+.icon span:nth-child(2), .icon span:nth-child(3){
+  top: 13px;
+}
+.icon span:nth-child(4){
+  top: 26px;
+}
+.links {
+  position: fixed;
+   list-style: none;
+  padding: 0;
+  z-index: 1;
+ display: flex;
+ right: 100px;
+font-family: 'Lobster', cursive;
+}
+.links li a {
+   font-size: 25px;
+    color: #fff;
+    margin-left: 20px;
+}
+.links li a:hover {
+  color: red;
+}
+
+
+.clous {
+  background: red;
+}
+.clous h2 {
+  margin-top: 50px;
+}
+.word {
+margin-left: 90px;
+}
+
+.shadov {
+ text-align: center;
+}
+.pfblock {
+  background:url(../img/362486-commander06.jpg)no-repeat center top;
+ background-size:cover;
+ overflow-x: hidden;
+ height: 100vh;
+}
+.pfblock-header {
+  padding-top: 100px;
+}
+.pfblock-header h2{
+  font-size: 45px;
+ font-family: 'PT Serif', serif;
+ color: grey;
+}
+.pfblock-line {
+  border: solid 1px #d5d7d2;
+  margin: 30px;
+}
+.pfblock-subtitle {
+  font-size: 45px;
+   font-family: 'PT Serif', serif;
+   margin-bottom: 100px;
+  font-weight: 700;
+  text-align: center;
+  color: grey;
+}
+ 
+.iconbox-text {
+  width: 250px;
+  height: 300px;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  background: #fff;
+  background: linear-gradient( rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.3) ),
+   url(../img/354558-admin.jpg)no-repeat center;
+  font-family: 'Source Serif Pro', serif;
+}
+  
+.iconbox-title {
+  color:  #f2f1eb;
+  font-weight: 700;
+  text-align: center;
+   font-family: 'PT Serif', serif;
+}
+.iconbox-desc {
+  color: #f0d7b7;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 15%;
+  font-size: 25px;
+   font-family: 'PT Serif', serif;
+}
+.contact {
+  background: url(../img/Closeup_Laptops_Hands_469888.jpg) no-repeat center top;
+  background-size: cover;
+  overflow-x: hidden;
+
+  height: 100vh;
+}
+.brand img{
+  width: 350px;
+  height: 250px;
+  margin-top: 100px;
+}
+.brand1 img{
+  width: 350px;
+  height: 250px;
+  margin-top: 100px;
+}
+#contactes {
+  background: url(../img/327220-zero.jpg);
+}
+.footer {
+margin-left: 27%;
+}
+.tel {
+  background: linear-gradient( rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.3) ),
+   no-repeat center;
+  width: 500px;
+  border: solid 1px #fff;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'PT Serif', serif;
+}
+.emel {
+   background: linear-gradient( rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.3) ),
+  no-repeat center;
+    width: 500px;
+  border: solid 1px #fff;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ font-size: 25px;
+ color: #fff;
+  font-weight: 700;
+  font-family: 'PT Serif', serif;
+}
+.telegr {
+   background: linear-gradient( rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.3) ),
+   no-repeat center;
+    width: 500px;
+  border: solid 1px #fff;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'PT Serif', serif;
+}
+.pfblock-line {
+  margin-bottom: 50px;
+}
+.smol {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+.salun {
+  margin: 0 auto;
+  margin-top: -100px;
+}
+.smol a {
+margin-left: 100px;
+margin-right: 100px;
+padding-bottom: 50px;
+}
+
+  
+
+
+@media (max-width: 992px) {
+  .row {
+    flex-direction: column;
+  }
+  .iconbox-text {
+    background: url(../img/Hands_Laptops_475640.jpg);
+    width: 500px;
+    text-align: center;
+    margin-left: 60%;
+    margin-top: -50px;
+  }
+  
+  .footer {
+    margin-left: 15%;
+  }
+  .smol {
+    flex-direction: column;
+  }
+    
+}
+
+ @media screen and (max-width: 768px) {
+  .icon {
+    display: inline-block;
+  }
+ 
+  .links  {
+        position: fixed;
+        display: block;
+        top: 0;
+        right: 0;
+        left: 10;
+        margin-top: 52px;
+        background-color: rgba(0,0,0,0.4);
+        z-index: 1000;
+        overflow: auto;
+        opacity: 0;
+  }
+  .menu-item {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+  }
+ 
+ .menu.menu-open .icon span:nth-child(1){
+  top: 18px;
+  width: 0%;
+  left: 50%;
+  
+ }
+ .menu.menu-open .icon span:nth-child(2){
+  transform: rotate(45deg);
+ }
+ .menu.menu-open .icon span:nth-child(3){
+ transform: rotate(-45deg);
+ }
+ .menu.menu-open .icon span:nth-child(4){
+  top: 18px;
+  width: 0%;
+  left: 50%;
+
+ }
+ .menu.menu-open .links {
+  opacity: 1;
+
+ }
+ }
+
+
+@media (max-width: 768px){
+ 
+  .row {
+    flex-direction: column;
+  }
+.salun  {
+   margin-left: 48px;
+  }
+  .footer {
+   margin-left: 70px;
+  }
+  .iconbox-text {
+    background: url(../img/Hands_Laptops_475640.jpg);
+    width: 500px;
+    text-align: center;
+    margin-left: 60%;
+  }
+}
+@media (max-width: 500px) {
+         .iconbox-text {
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+.iconbox-desc {
+  font-size: 20px;
+}
+.smol {
+ margin: 0 auto;
+ display: block;
+ margin-left: -30px;
+}
+.tel {
+  width: 200px;
+  font-size: 15px;
+}
+.emel {
+  width: 200px;
+  font-size: 20px;
+}
+.telegr {
+  width: 200px;
+  font-size: 20px;
+}
+}
+@media (max-width: 380px) {
+  .smol {
+    margin-left: -50px;
+  }
+}@media (max-width: 325px) {
+  .smol {
+    margin-left: -70px;
+  }
+}
+
+   
+ 
+
+
+ 
+  
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
